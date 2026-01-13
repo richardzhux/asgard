@@ -4,7 +4,7 @@ import "./globals.css";
 import { cookies } from "next/headers";
 import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
 import Providers from "@/components/providers";
-import { AuthControls } from "@/components/auth-controls";
+import { TopNav } from "@/components/top-nav";
 
 export const metadata: Metadata = {
   title: "Asgard Lit Review",
@@ -12,20 +12,22 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: { children: ReactNode }) {
-  const supabase = createServerComponentClient({ cookies });
-  const {
-    data: { session }
-  } = await supabase.auth.getSession();
+  const supabaseReady = Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
+  let session = null;
+  if (supabaseReady) {
+    const supabase = createServerComponentClient({ cookies });
+    const {
+      data: { session: s }
+    } = await supabase.auth.getSession();
+    session = s;
+  }
 
   return (
     <html lang="en">
       <body>
         <Providers initialSession={session}>
           <div className="container">
-            <header className="flex items-center justify-between py-4">
-              <div className="font-semibold text-lg">Asgard</div>
-              <AuthControls />
-            </header>
+            <TopNav />
             {children}
           </div>
         </Providers>

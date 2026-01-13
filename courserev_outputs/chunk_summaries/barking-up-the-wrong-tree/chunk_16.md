@@ -1,0 +1,63 @@
+# Chunk 16 (units 12301-13200)
+
+- **Key concepts / sections**
+  - **Constitutional review of Breed-Specific Legislation (BSL)**
+    - *Toledo v. Tellings I* (Ohio Ct. App. 2006)
+    - *Toledo v. Tellings II* (Ohio Sup. Ct. 2007)
+    - Other BSL cases: *Colorado Dog Fanciers, Inc. v. Denver*; *Garcia v. Village of Tijeras*.
+  - **Rational basis and “real and substantial relationship”**
+    - Courts examine whether BSL has a rational relationship to the legitimate state interest of **public safety**.
+  - **Role of scientific evidence vs. media myths**
+    - Earlier BSL cases heavily relied on **sensationalized media claims** and **unsubstantiated “common knowledge”** about pit bulls.
+    - Newer evidence challenges or refutes many of those claims.
+
+- **Definitions / doctrines**
+  - **Rational basis test (in this context)**  
+    - Very deferential standard: law upheld if there is any **conceivable** rational connection to a **legitimate state interest** (public safety).
+    - Ohio Ct. App. applied a more demanding version; Ohio Sup. Ct. applied a weaker, more deferential version.
+  - **Void for vagueness**
+    - A statute is unconstitutional if:
+      - It does not give **fair notice** of what conduct (or in this case, what dogs) are covered.
+      - It allows **subjective, arbitrary enforcement**.
+    - Here, “pit bull-type” lacked a clear definition and was based only on **visual identification** by officials.
+
+- **Examples from the text**
+  - **Toledo v. Tellings I (Ct. App.)**
+    - Found *no rational basis* to distinguish pit bulls from other dogs:
+      - Trial court admitted no evidence pit bulls are more dangerous than similarly sized dogs.
+      - Singling out pit bulls thus lacked a “real and substantial relationship” to public safety.
+    - Debunked specific myths:
+      - **“Locking jaws”**: dissections showed pit bull jaw muscles/bone structure same as other similar-sized dogs.
+      - **“2,000 psi bite force”**: no scientific testing/evidence; such measurements have never validly been done.
+      - **“Trigger mechanism” / no warning signals**:
+        - Expert claiming this had no studies or data.
+        - Other experts stated all dogs give signals; pit bull behaviors can be modified via training and socialization.
+    - Emphasized judicial duty to **revisit prior rulings** as **scientific knowledge advances**.
+    - Held statute **void for vagueness**:
+      - “Pit bull-type” undefined.
+      - Toledo dog warden admitted identification is purely **subjective observation**.
+      - With many similar-looking breeds/mixes, owners cannot reliably know if they are subject to prosecution.
+  - **Toledo v. Tellings II (Ohio Sup. Ct.)**
+    - Reversed the Court of Appeals.
+    - Stressed **legislative power** over public health, safety, welfare.
+    - Using a **weaker rational basis review**, found **sufficient evidence** that BSL relates to public safety.
+  - **Other courts relying on contested evidence**
+    - *Colorado Dog Fanciers v. Denver* (Colo. Sup. Ct.):
+      - Accepted claims that:
+        - Pit bull attacks occur more often.
+        - Attacks are more severe and more likely fatal.
+        - Pit bulls are stronger than other dogs, give no warning, and do not retreat even when in pain.
+    - *Garcia v. Village of Tijeras* (N.M. Ct. App.):
+      - Cited evidence that pit bulls have **unique inherent traits**: aggression, strength, viciousness, and unpredictability “not found in any other” dogs.
+    - The article notes much of this “evidence” mirrors **mid‑1980s media sensationalism** and is **questioned or refuted** by later science.
+
+- **Pitfalls / common confusions**
+  - **Confusing myth with science**:
+    - Courts have sometimes treated media claims (locking jaws, super bite force, no warnings) as “facts.”
+    - The Ohio Ct. App. stresses courts must rely on **actual scientific evidence**, not hearsay or “common knowledge.”
+  - **Overlooking standard of review**:
+    - Outcomes can flip (as in *Tellings*) depending on how strictly or leniently **rational basis** is applied.
+  - **Assuming genetic traits are immutable**:
+    - Experts clarified that even if some behaviors have **genetic components**, they can often be **modified by training and socialization**.
+  - **Ignoring vagueness in breed identification**:
+    - Visual identification of “pit bull-type” dogs is highly subjective, especially with mixed breeds—creating due process and equal protection concerns.

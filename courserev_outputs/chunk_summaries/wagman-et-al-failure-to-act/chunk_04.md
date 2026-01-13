@@ -1,0 +1,74 @@
+# Chunk 04 (units 2461-3360)
+
+- **Key concepts / sections**
+  - **Emergency aid / exigent circumstances exception** and animals
+  - **State v. Fessenden & State v. Dicke (Or. 2014)**
+  - **Multi‑state recognition** of animal‑life exigency
+  - **State v. Newcomb (Or. 2015)** – dog’s blood test and privacy
+  - **Oregon Constitution, Article I, § 9** vs. **Fourth Amendment** analysis
+  - Definition of **“search”** as invasion of a **protected privacy interest**
+
+- **Definitions / rules**
+  - **Emergency aid / exigent circumstances exception**:
+    - Warrantless entry or seizure is allowed when **immediate action is reasonably necessary** to protect life or prevent serious harm.
+    - In Oregon and many other states, this includes **animal life**, not only humans.
+  - **Article I, § 9 (Oregon Constitution)**:
+    - Protects the right of the people to be secure in their “persons, houses, papers, and effects” against **unreasonable searches or seizures**.
+    - Applies **only** when the government engages in conduct that amounts to a **search or seizure**.
+    - **Search** = governmental action that invades a **protected privacy interest**.
+    - **Seizure** = (not fully quoted here) governmental interference with possessory interests (standard definition).
+
+- **Cases and examples**
+  - **State v. Fessenden & State v. Dicke** (355 Or. 759 (2014)):
+    - Facts: Officer responded to complaint about a suffering horse; found **profoundly emaciated** horse; seized and took horse to a veterinarian; horse survived.
+    - Defendant’s argument: Needed a **search warrant**; “danger to an animal’s life” is not the kind of emergency that diminishes constitutional protections.
+    - Holding:
+      - Emergency aid / exigent circumstances exception applies to **animals**, not just humans.
+      - Based on overall **reasonableness** under the 4th Amendment and Article I, § 9.
+      - Oregon’s **animal protection statutes** (e.g., in Nix) support that it is **constitutionally reasonable** to render emergency aid to a suffering animal.
+  - **Other jurisdictions**:
+    - States recognizing animal‑life exigency include: **CA, FL, GA, IL, IN, MA, MO, MT, NY, OH, TX, VT, WI**.
+    - Examples:
+      - **Recchia v. City of Los Angeles Dept. of Animal Services**, 889 F.3d 553 (9th Cir. 2018):
+        - Exigent circumstances exception to the Fourth Amendment **applies to seizure of animals in need of urgent care**.
+      - **Broden v. Marin Humane Soc’y**, 70 Cal. App. 4th 1212 (1999):
+        - Fourth Amendment exigency exception applies to **emergencies where animals are suffering**.
+
+  - **State v. Newcomb** (359 Or. 756 (2015)):
+    - Facts:
+      - Defendant convicted of **second‑degree animal neglect (ORS 167.325)** for failing to feed her dog, Juno, leading to malnourishment.
+      - Juno was lawfully **seized** (no dispute on appeal).
+      - The state **drew blood** from Juno and tested it; results showed **no medical condition** explaining malnourishment → inference that dog was **starving** due to neglect.
+    - Procedural history:
+      - Defendant moved to **suppress blood test results**, arguing warrantless testing violated:
+        - **Article I, § 9** (Oregon Constitution), and
+        - **Fourth Amendment** (U.S. Constitution).
+      - Trial court: **Denied** suppression; admitted blood test results; conviction.
+      - Court of Appeals:
+        - **Reversed**; held defendant had a **protected privacy interest in her dog’s blood**, requiring a **warrant** absent an exception; no applicable exception → violation.
+      - Oregon Supreme Court:
+        - Granted review to decide if defendant had a **protected privacy interest** in dog’s blood under state and federal constitutions.
+        - Held that **on these facts, she did not**.
+        - Result: **Reversed** Court of Appeals; **affirmed** trial court (blood test results admissible).
+    - Issues framed:
+      - Only issue on review: **Lawfulness of testing Juno’s blood**, not the initial seizure.
+      - Core question: Did defendant have a **protected privacy interest** in Juno’s blood **after** Juno was in the state’s lawful custody and care?
+      - Is drawing and testing the dog’s blood a **“search”** under:
+        - **Article I, § 9**, and/or
+        - The **Fourth Amendment**?
+      - If it is a search, was it nonetheless **reasonable without a warrant**?
+    - Methodology:
+      - Oregon courts analyze **state constitutional claims first** (Article I, § 9).
+      - Only if no violation under the state constitution do they reach the **Fourth Amendment** question.
+
+- **Pitfalls / common confusions**
+  - **Conflating seizure and testing**:
+    - Defendants may concede that the **seizure of an animal** is lawful (e.g., under exigent circumstances) but still challenge **subsequent examination/testing** of the animal (e.g., blood draws) as a separate **search**.
+  - **Assuming animals are treated like humans for bodily integrity**:
+    - Human blood draw cases often clearly implicate **strong privacy interests**.
+    - Newcomb raises whether an **owner’s** privacy/ property interest in an **animal’s** bodily fluids is comparable—Oregon Supreme Court says **no, on these facts**.
+  - **Misreading “effects” under Article I, § 9**:
+    - Animals are generally **property/effects**, but **not every governmental interaction with property** is a “search.”
+    - You must ask whether there is an **invasion of a protected privacy interest**, not merely a property interest.
+  - **Overlooking statutory context**:
+    - Courts in Fessenden/Dicke explicitly rely on **animal protection statutes** to support the reasonableness of emergency aid to animals; statutory policy can shape what is “reasonable” under constitutional analysis.

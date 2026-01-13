@@ -15,10 +15,13 @@ core/
   tokens.py          # token estimation (tiktoken optional)
   utils.py           # filesystem helpers (ensure_dir, slugify, JSON IO)
 pipelines/
-  memoir_pipeline.py # chunk/summarize/synthesize a single memoir (resumable)
   litrev_pipeline.py # multi-agent “Supreme Court” literature review for PDF folders
-memoir2.py           # CLI entry point for MemoirPipeline
+legacy/memoir/
+  memoir_pipeline.py # legacy memoir pipeline
+  memoir2.py         # legacy CLI entry point
+  memoir_test.py     # legacy test harness
 litrev_test.py       # CLI entry point for LitReviewPipeline (PDF extraction still stubbed)
+course_review.py     # CLI entry point for CourseReviewPipeline
 ```
 
 Every pipeline composes the `core` modules and exposes a `run()` method. Entry scripts simply
@@ -39,9 +42,9 @@ can import the same classes.
 Any new workflow should import from these modules to stay aligned on rate limiting, chunking rules,
 And data shapes.
 
-## Memoir Pipeline (`memoir2.py`)
+## Memoir Pipeline (legacy)
 
-`pipelines/memoir_pipeline.py` encapsulates the two-stage memoir analysis:
+The memoir workflow is now parked under `legacy/memoir/` to reduce noise in the active lit-review stack. It still runs if you need it:
 
 1. **Chunking** – read a `.md`/`.txt` manuscript, split by mixed-language “units”, and store a resumable
    `summaries/index.json` with chunk metadata + SHA-256 fingerprint of the source + model names.
@@ -50,10 +53,10 @@ And data shapes.
 3. **Global synthesis** – concatenate chunk markdown (saved to `memoir_chunk_summaries.md`) and run
    the long-form dossier prompt, writing `memoir_analysis.md`.
 
-The CLI `memoir2.py` sets defaults (model names/limits, chunk size) and accepts an optional memoir path:
+Run from the legacy folder:
 
 ```bash
-python memoir2.py /path/to/memoir.md
+python legacy/memoir/memoir2.py /path/to/memoir.md
 ```
 
 ## Literature Review Pipeline (`litrev_test.py`)
@@ -112,6 +115,39 @@ python litrev_test.py /path/to/pdf_dir \
 `LitReviewPipeline` wires this ingestor automatically; each `Document` now carries normalized text, inferred
 sections, and optional media metadata/descriptions before chunking. Toggle OCR, OpenAI Vision OCR, LLM
 sections, or media capture via `LitReviewConfig` (exposed by CLI flags in `litrev_test.py`).
+
+## Course Review Pipeline (`course_review.py`)
+
+An exam-focused workflow that ingests mixed course materials (slides, scanned chapters, ebooks) and produces:
+
+- Chunk summaries per document (concise notes per slice).
+- Document summaries (Markdown).
+- Concepts JSON (term, definition, example, common pitfall, source).
+- Practice JSON (question, answer, difficulty, type, source).
+- Exam cram sheet (one-page Markdown).
+
+Stages:
+
+1) Ingest + chunk (`chunk_text`), with the same OCR/vision options as litrev.  
+2) Summarize chunks (default: ~600 tokens).  
+3) Summarize each document (~500 tokens).  
+4) Extract concepts (JSON) and practice Q&A (JSON) from all document summaries.  
+5) Synthesize a cram sheet referencing concepts/practice.
+
+Outputs live under `courserev_outputs/`:
+- `chunk_summaries/<doc>/chunk_XX.md`
+- `doc_summaries/<doc>.md`
+- `concepts.json`
+- `practice.json`
+- `exam_cram.md`
+
+Run it via:
+
+```bash
+python course_review.py /path/to/course_folder --course-name "Course Title" --allow-pdf-ocr
+```
+
+Adjust token caps and practice count via CLI flags or `CourseReviewConfig`.
 
 ## Extending the System
 

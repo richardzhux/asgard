@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { supabaseBrowser } from "@/lib/supabaseBrowser";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { StatusBadge } from "@/components/status-badge";
 
 type Job = {
   id: string;
@@ -27,6 +28,7 @@ export default function JobDetailPage({ params }: { params: { id: string } }) {
   const [job, setJob] = useState<Job | null>(null);
   const [events, setEvents] = useState<JobEvent[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     let mounted = true;
@@ -45,6 +47,8 @@ export default function JobDetailPage({ params }: { params: { id: string } }) {
         }
       } catch (e: any) {
         setError(e?.message || "Failed to load job");
+      } finally {
+        if (mounted) setLoading(false);
       }
     };
     load();
@@ -59,17 +63,21 @@ export default function JobDetailPage({ params }: { params: { id: string } }) {
         ← Back
       </Link>
       {error && <div className="text-sm text-red-600">{error}</div>}
+      {loading && <div className="text-sm text-foreground/60">Loading…</div>}
       {job && (
         <Card>
           <CardHeader>
-            <CardTitle>{job.title || "Untitled job"}</CardTitle>
-            <p className="text-sm text-foreground/70">Status: {job.status}</p>
+            <CardTitle className="flex items-center justify-between gap-2">
+              <span>{job.title || "Untitled job"}</span>
+              <StatusBadge status={job.status} />
+            </CardTitle>
+            <p className="text-sm text-foreground/70">Focus: {job.research_focus}</p>
           </CardHeader>
-          <CardContent className="flex flex-col gap-2 text-sm">
-            <div className="text-foreground/80">Focus: {job.research_focus}</div>
+          <CardContent className="grid gap-2 md:grid-cols-2 text-sm">
+            <div className="text-foreground/60">Submitted: {new Date(job.created_at).toLocaleString()}</div>
             <div className="text-foreground/60">Started: {job.started_at ? new Date(job.started_at).toLocaleString() : "—"}</div>
             <div className="text-foreground/60">Finished: {job.finished_at ? new Date(job.finished_at).toLocaleString() : "—"}</div>
-            {job.error && <div className="text-red-600">Error: {job.error}</div>}
+            {job.error && <div className="text-red-600 md:col-span-2">Error: {job.error}</div>}
           </CardContent>
         </Card>
       )}
@@ -78,13 +86,18 @@ export default function JobDetailPage({ params }: { params: { id: string } }) {
         <CardHeader>
           <CardTitle>Events</CardTitle>
         </CardHeader>
-        <CardContent className="flex flex-col gap-2">
+        <CardContent className="flex flex-col gap-3">
           {events.length === 0 && <div className="text-sm text-foreground/60">No events yet.</div>}
           {events.map((evt) => (
-            <div key={evt.id} className="rounded-md border border-border px-3 py-2">
-              <div className="text-xs uppercase tracking-wide text-foreground/60">{evt.event_type}</div>
-              <div className="text-sm">{evt.message}</div>
-              <div className="text-xs text-foreground/50">{new Date(evt.created_at).toLocaleString()}</div>
+            <div key={evt.id} className="flex gap-3">
+              <div className="pt-1">
+                <div className="h-2 w-2 rounded-full bg-foreground/50" />
+              </div>
+              <div className="flex-1 rounded-md border border-border px-3 py-2">
+                <div className="text-xs uppercase tracking-wide text-foreground/60">{evt.event_type}</div>
+                <div className="text-sm">{evt.message}</div>
+                <div className="text-xs text-foreground/50">{new Date(evt.created_at).toLocaleString()}</div>
+              </div>
             </div>
           ))}
         </CardContent>

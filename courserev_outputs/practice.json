@@ -1,0 +1,58 @@
+[
+  {
+    "question": "In Travis v. Murray\u2013type pet disputes, what is the primary purpose of an action in replevin, and how does it differ from a claim for damages?",
+    "answer": "Replevin is a cause of action for the wrongful taking or detention of chattel that seeks return of the specific item itself (the dog, cat, or other chattel), not its monetary value. A damages action, by contrast, seeks money compensation for loss or injury rather than recovery of the particular piece of property.",
+    "difficulty": "easy",
+    "type": "conceptual",
+    "source": "best-interests-nov-11"
+  },
+  {
+    "question": "A testator\u2019s will leaves $1 million \u201cto support the orphanage run by St. Agnes Home,\u201d but the home has closed and its corporate charter has been dissolved. Identify the doctrine a court would most likely use to redirect this gift, the preconditions for using it, and its central goal.",
+    "answer": "The court would invoke cy pres. Cy pres applies when the terms of a charitable trust or testamentary gift have become illegal, impossible, or impracticable to carry out. The doctrine allows the court to modify the terms (for example, by redirecting the funds to a similar lawful orphan\u2011care charity) so as to approximate the donor\u2019s original charitable intent as closely as possible, rather than discarding that intent.",
+    "difficulty": "medium",
+    "type": "conceptual",
+    "source": "best-interests-nov-11"
+  },
+  {
+    "question": "Compare how UTC \u00a7 408 and UPC \u00a7 2\u2011907 handle (1) the scope of animals covered by a pet trust and (2) what happens to excess funds when a pet trust is overfunded.",
+    "answer": "(1) Scope: UTC \u00a7 408 covers trusts for the care of an animal that was alive during the settlor\u2019s lifetime (all covered animals must have been alive then). UPC \u00a7 2\u2011907 covers trusts for any \u201cdesignated domestic or pet animals,\u201d which is broader phrasing and not limited to animals alive during the settlor\u2019s life. (2) Excess funds: Under the UTC, a court can reduce a pet trust that exceeds what is needed for care, with the excess passing to the settlor\u2019s successors in interest as defined by the instrument or default trust law. Under the UPC, the court may reduce a trust that is substantially overfunded, and excess property follows a specific waterfall: first as directed in the trust instrument, second under the decedent\u2019s will (residuary clause), and third to intestate heirs if still undisposed.",
+    "difficulty": "medium",
+    "type": "conceptual",
+    "source": "best-interests-nov-11"
+  },
+  {
+    "question": "In Capers\u2019 Estate, the testatrix directed that any dogs she owned at death be destroyed. Explain why the Pennsylvania Orphans\u2019 Court refused to enforce this clause, including how it interpreted the Wills Act of 1947 and public policy, and what ultimately happened to the dogs and the failed clause.",
+    "answer": "The court held that the Wills Act of 1947 authorizes a person by will to \u201cdispose of\u201d real and personal estate, which the court interpreted as directing subsequent ownership or enjoyment of property\u2014not its destruction. Testamentary power to dispose does not include authority to annihilate valuable property. The court further held that ordering the destruction of healthy, well\u2011cared\u2011for dogs was void as against Pennsylvania public policy, which protects public welfare and opposes wanton waste and cruelty (including destruction of life for no purpose). As a result, the clause failed and, under Wills Act \u00a7 14(9), the specific gift fell into the residuary estate. The dogs were treated as estate property to be transferred, not destroyed, with custody arranged through the residuary legatee (the Western Pennsylvania Humane Society), which agreed to place them permanently with the Millers. The Millers\u2019 waiver of boarding fees was treated as consideration for taking the dogs.",
+    "difficulty": "hard",
+    "type": "conceptual",
+    "source": "capers-estate-legal-case"
+  },
+  {
+    "question": "Using People v. Riazati as an example, distinguish ordinary negligence from the \u201cgross negligence\u201d standard applied in many animal\u2011neglect statutes, and explain what level of risk to the animal must be shown for conviction under Cal. Penal Code \u00a7 597(b).",
+    "answer": "Ordinary negligence is mere carelessness or failure to exercise reasonable care. Gross negligence, as applied in \u00a7 597(b) and in Riazati, is a more serious form of negligence: acting (or failing to act) in a reckless way that creates a high risk of death or great bodily injury to the animal, where a reasonable person would have known of that risk. For conviction under \u00a7 597(b) in Riazati, the jury was instructed that the defendant must have had custody or responsibility for the animal and committed a grossly negligent act or omission that created a high risk of death or great bodily injury (significant or substantial physical injury) to the animal; risk of death alone is not required.",
+    "difficulty": "medium",
+    "type": "conceptual",
+    "source": "people-v-riazati-2011"
+  },
+  {
+    "question": "Under the emergency aid doctrine as extended in Oregon cases like State v. Fessenden and State v. Hershey, what must officers believe before entering property without a warrant to aid animals, and how does this doctrine differ from a typical probable\u2011cause\u2011based search exception?",
+    "answer": "Officers must actually (subjectively) believe that immediate entry is necessary to render aid to animals that have suffered, or are imminently threatened with, serious physical injury or cruel death (for example, starvation), and that belief must be objectively reasonable based on specific, articulable facts (such as visible emaciation, lack of food and water, extreme weather, or prior reports). This emergency aid doctrine is focused on preventing imminent harm, not gathering evidence of a crime, and does not require probable cause that a crime has been committed. In contrast, most traditional search exceptions (like automobile searches or exigent circumstances for evidence preservation) hinge on probable cause that evidence of a crime will be found.",
+    "difficulty": "medium",
+    "type": "conceptual",
+    "source": "neglect-and-obligation-nov-4"
+  },
+  {
+    "question": "Explain how the doctrine of reserved rights, articulated in United States v. Winans and applied in later cases like United States v. Washington (the Boldt decision), shapes tribal off\u2011reservation fishing rights, including (1) how treaties are interpreted, (2) what land interests non\u2011Indian owners receive, and (3) how state conservation regulation is constrained.",
+    "answer": "(1) Under the reserved rights doctrine, treaties with tribes are understood as grants of rights from tribes to the United States; tribes retain all rights not expressly given up. Treaties are construed as tribes would have understood them, and silence is read to mean the tribe kept the right. Thus clauses securing fishing at \u201cusual and accustomed grounds\u201d in common with citizens protect pre\u2011existing tribal fisheries rather than granting new privileges. (2) Non\u2011Indian landowners take title to lands burdened by tribal treaty rights\u2014functionally like easements or servitudes\u2014so their property is subject to tribal access and fishing rights at those usual and accustomed places. (3) States may regulate off\u2011reservation treaty fishing only for true conservation purposes, and only if the regulation is necessary and nondiscriminatory. States cannot use \u201cconservation\u201d as a pretext to reallocate fish away from treaty tribes, and statehood or later state law does not itself abrogate treaty rights; only Congress can clearly and explicitly do so.",
+    "difficulty": "hard",
+    "type": "conceptual",
+    "source": "treaty-rights-oct-23"
+  },
+  {
+    "question": "Breed\u2011specific legislation (BSL) is often justified as a way to reduce serious dog attacks. Drawing on the arguments and empirical evidence summarized in \u201cBarking Up the Wrong Tree,\u201d identify two major empirical problems with BSL and one alternative, breed\u2011neutral policy approach the article recommends.",
+    "answer": "First, large epidemiological studies show that serious dog bites and attacks involve many breeds and mixes (dozens to 80+ identified), and that breed is a weak predictor of aggression compared to other factors such as whether the dog is a resident/isolated animal, owner abuse or neglect, lack of supervision of children, and keeping intact males. Jurisdictions that adopted BSL (e.g., parts of Germany, Spain, the Netherlands) generally saw no meaningful reduction in bite rates or hospitalizations attributable to the laws. Second, enforcement is undermined by unreliable breed identification: visual identification of mixed\u2011breed dogs is often wrong, and DNA studies show poor correlation between appearance and ancestry, so \u201cpit bull\u201d bans over\u2011include non\u2011pit mixes and miss some dogs with bully ancestry. As a breed\u2011neutral alternative, the article recommends focusing laws and enforcement on behavior and owner management\u2014e.g., strengthening and enforcing neglect/abuse statutes (including treating isolation as neglect), requiring proper confinement and supervision, encouraging or subsidizing spay/neuter, and using education and targeted dangerous\u2011dog laws that apply based on conduct rather than breed.",
+    "difficulty": "hard",
+    "type": "conceptual",
+    "source": "barking-up-the-wrong-tree"
+  }
+]

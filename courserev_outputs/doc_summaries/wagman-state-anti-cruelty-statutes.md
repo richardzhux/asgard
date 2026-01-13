@@ -1,0 +1,69 @@
+- **Scope & Role of State Anti‑Cruelty Statutes**
+  - All 50 states + D.C. criminalize animal cruelty (infraction → misdemeanor → felony).
+  - Often the *main*—sometimes only—legal protection for animals; protect without necessarily granting “rights.”
+  - Felony provisions in all jurisdictions by 2014 (most post‑1993) → growing societal concern.
+  - Historical root: 1641 Massachusetts “Body of Liberties,” Art. 92 (ban on “Tyranny or Cruelty” to commonly used animals).
+
+- **Key Statutory Features**
+  - **Community service**: judges may order as condition of sentence/probation; controversial when imposed at animal shelters.
+  - **Counseling**: statutes may authorize/require psych evaluation/treatment.
+  - **Cross‑reporting**:
+    - Links animal abuse and child abuse reporting duties.
+    - Example: **Illinois** (2009): animal officials must report suspected child abuse; child‑welfare officials must report suspected animal abuse.
+  - **Definition of “animal”**:
+    - Varies by state and even by statute; crucial for determining which species are protected.
+  - **Penalties**: keyed to general state misdemeanor/felony schemes.
+  - **Preconviction costs of care & forfeiture**:
+    - Court can order alleged owner to post funds for care of seized animals after a prompt hearing.
+    - Nonpayment → **automatic forfeiture** of ownership to seizing agency.
+    - Goal: shift financial burden from shelters and enable early adoption.
+  - **Post‑conviction reimbursement**:
+    - Liens or similar mechanisms to recoup care costs after conviction.
+    - Often ineffective because many defendants are **judgment‑proof** or cases settle.
+  - **Restitution**:
+    - When abuser does *not* own the animal, court can order payment to owner (e.g., vet bills), usually via general criminal restitution law.
+  - **Veterinarian reporting**:
+    - ~15 states mandate reporting; ~20 address it but don’t mandate.
+    - Typically provide immunity for good‑faith reporting.
+
+- **Major Exemptions (Core Weakening of Protection)**
+  - **Traditional veterinary practice**:
+    - Broadly defined under vet practice acts; “animal” often defined very broadly.
+    - Example: **Pennsylvania** treats cosmetic surgeries (declawing, ear cropping, tail docking) as “traditional veterinary practice” → exempt from cruelty law.
+  - **Research animals**:
+    - Most states exempt medical/educational/scientific research.
+    - Defer to federal **Animal Welfare Act (AWA)**, which sets minimum housing/care standards but not protocols.
+    - Example: **New Mexico** exempts AWA‑covered federally funded facilities *unless* conduct knowingly violates approved internal protocols.
+  - **Hunting, fishing, trapping**:
+    - Typically carved out so cruelty laws don’t interfere with game laws or lawful field sports.
+    - Specialized federal laws (ESA, Marine Mammal Protection Act, Migratory Bird laws) protect only some species.
+  - **Farmed animals / standard husbandry**:
+    - “Customary” practices (castration, tail docking, debeaking, dehorning, etc., often without anesthesia) generally exempt.
+  - **Pest control**:
+    - Exempt “commercially acceptable” methods (fumigation, poisons, traps, sterilization).
+    - “Pest” often undefined; can overlap with “pet.”
+    - Example: **New Jersey**: reasonable/commercially acceptable killing of rats/mice is exempt *unless* the animal is a pet.
+    - Courts may also recognize **implied exemptions** where statute is silent.
+  - **Entertainment animals**:
+    - Zoos, circuses, aquaria, horse racing, rodeos usually regulated via special schemes + AWA, not ordinary cruelty laws.
+    - AWA is a **floor**; states/localities can and do add stricter rules.
+    - Examples: KY statute protecting killing related to horse racing; WI bans electric prods in rodeos; some cities ban bullhooks or wild animals in circuses.
+
+- **Enforcement & Procedural Issues**
+  - **Systemic impediments**:
+    - Limited training for police/prosecutors; cases often given to least‑experienced.
+    - Cultural bias that animal cases are less serious than human‑victim crimes.
+    - Resource constraints; animal cases rarely prioritized.
+    - Community pressure can push both for leniency or for unusually harsh treatment.
+  - **Animals as both property and victims**:
+    - Legally property, but in cruelty cases also evidence and victims.
+    - Historically: animals not treated as “victims,” limiting counts when many animals harmed.
+    - **Oregon** (Nix/Hess) recognizes animals as victims for certain purposes → multiple counts.
+  - **Search & seizure / evidence**:
+    - Seized animals may be suppressed if seizure violates the Fourth Amendment; suppression can require return to alleged abuser.
+    - Officers can rely on **plain view** and **exigent circumstances** to seize animals in immediate danger.
+  - **Pretrial forfeiture**:
+    - Via cost‑of‑care statutes or plea/trade (defendant surrenders animals for lighter charges).
+    - Defendants may allege unconstitutional taking; courts focus on **due process** (notice + hearing) and legality of seizure.
+  - **Proving ownership/control**:
+    - Essential element in neglect cases (d

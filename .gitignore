@@ -5,6 +5,8 @@ __pycache__/
 venv/
 .env
 .env.*
+!.env.example
+!frontend/.env.local.example
 .DS_Store
 
 # Node/Next

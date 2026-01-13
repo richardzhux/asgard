@@ -22,6 +22,7 @@ from typing import Any, Dict, Optional
 from supabase import Client, create_client
 
 from pipelines.litrev_pipeline import LitReviewConfig, LitReviewPipeline
+from pipelines.course_pipeline import CourseReviewConfig, CourseReviewPipeline
 
 POLL_INTERVAL = int(os.getenv("JOBS_POLL_INTERVAL", "10"))
 BATCH_LIMIT = int(os.getenv("JOBS_BATCH_LIMIT", "1"))
@@ -37,14 +38,30 @@ def _to_path(val: Optional[str]) -> Optional[Path]:
     return Path(val).expanduser().resolve()
 
 
-def _build_config(job: Dict[str, Any]) -> LitReviewConfig:
+def _build_config(job: Dict[str, Any]) -> tuple[object, object, str]:
     cfg = job.get("config") or {}
-    research_focus = cfg.get("research_focus") or job.get("research_focus") or "Research focus not provided."
+    mode = cfg.get("mode") or job.get("mode") or "lit_review"
     pdf_dir = cfg.get("pdf_dir") or job.get("input_uri")
     if not pdf_dir:
         raise ValueError("Job missing pdf_dir / input_uri in config.")
 
-    kwargs: Dict[str, Any] = {"pdf_dir": _to_path(pdf_dir), "research_focus": research_focus}
+    if mode == "course_review":
+        kwargs: Dict[str, Any] = {"pdf_dir": _to_path(pdf_dir), "course_name": cfg.get("course_name") or job.get("title") or "Course Review"}
+        path_fields = {"pdf_dir", "output_dir", "media_output_dir"}
+        for field in fields(CourseReviewConfig):
+            name = field.name
+            if name in {"pdf_dir", "course_name"}:
+                continue
+            if name in cfg:
+                val = cfg[name]
+                if name in path_fields and val is not None:
+                    kwargs[name] = _to_path(val)
+                else:
+                    kwargs[name] = val
+        return CourseReviewConfig(**kwargs), CourseReviewPipeline, "course review"
+
+    research_focus = cfg.get("research_focus") or job.get("research_focus") or "Research focus not provided."
+    kwargs = {"pdf_dir": _to_path(pdf_dir), "research_focus": research_focus}
     path_fields = {
         "pdf_dir",
         "output_dir",
@@ -63,7 +80,7 @@ def _build_config(job: Dict[str, Any]) -> LitReviewConfig:
                 kwargs[name] = _to_path(val)
             else:
                 kwargs[name] = val
-    return LitReviewConfig(**kwargs)
+    return LitReviewConfig(**kwargs), LitReviewPipeline, "literature review"
 
 
 def _post_event(sb: Client, job_id: str, event_type: str, message: str, data: Optional[Dict[str, Any]] = None) -> None:
@@ -98,15 +115,15 @@ def run_job(sb: Client, job: Dict[str, Any]) -> None:
     title = job.get("title") or "lit-review job"
     _post_event(sb, job_id, "status", f"Starting {title}")
     try:
-        config = _build_config(job)
-        pipeline = LitReviewPipeline(config)
+        config, pipeline_cls, mode = _build_config(job)
+        pipeline = pipeline_cls(config)
         pipeline.run()
         _update_job(
             sb,
             job_id,
             {"status": "completed", "finished_at": _utcnow().isoformat(), "error": None},
         )
-        _post_event(sb, job_id, "status", f"Completed {title}")
+        _post_event(sb, job_id, "status", f"Completed {title} ({mode})")
     except Exception as exc:
         err_text = f"{type(exc).__name__}: {exc}"
         _post_event(sb, job_id, "log", f"Job failed: {err_text}", {"traceback": traceback.format_exc()})

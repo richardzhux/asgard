@@ -6,10 +6,15 @@ export const hardCaps = {
   agentTestimonyTokens: 8000,
   judgeTokens: 12000,
   litReviewMaxOutputTokens: 8000,
-  claimEvalMaxOutputTokens: 5000
+  claimEvalMaxOutputTokens: 5000,
+  courseSummaryTokens: 3600,
+  courseConceptTokens: 6000,
+  coursePracticeTokens: 6000,
+  courseCramTokens: 6000
 };
 
 export const jobConfigSchema = z.object({
+  mode: z.enum(["lit_review", "course_review"]).default("lit_review"),
   pdf_dir: z.string().min(1, "PDF directory is required."),
   research_focus: z.string().min(6, "Add a short research focus."),
   chunk_words: z.number().int().min(300).max(6000).default(1500),
@@ -51,12 +56,21 @@ export const jobConfigSchema = z.object({
 
   enable_judge: z.boolean().default(true),
   enable_claim_eval: z.boolean().default(true),
-  output_dir: z.string().optional()
+  output_dir: z.string().optional(),
+
+  // Course review extras
+  course_name: z.string().default("Course Review"),
+  summary_tokens: z.number().int().min(200).max(hardCaps.courseSummaryTokens).default(500),
+  concepts_tokens: z.number().int().min(200).max(hardCaps.courseConceptTokens).default(800),
+  practice_tokens: z.number().int().min(300).max(hardCaps.coursePracticeTokens).default(1200),
+  practice_count: z.number().int().min(1).max(20).default(8),
+  cram_tokens: z.number().int().min(500).max(hardCaps.courseCramTokens).default(1400)
 });
 
 export type JobConfig = z.infer<typeof jobConfigSchema>;
 
 export const defaultJobConfig: JobConfig = {
+  mode: "lit_review",
   pdf_dir: "~/Documents/papers",
   research_focus: "Map methodological rigor, normative stakes, and doctrinal contributions.",
   chunk_words: 1500,
@@ -91,7 +105,13 @@ export const defaultJobConfig: JobConfig = {
   media_zoom: 2.0,
   enable_judge: true,
   enable_claim_eval: true,
-  output_dir: "litrev_outputs"
+  output_dir: "litrev_outputs",
+  course_name: "Course Review",
+  summary_tokens: 1500,
+  concepts_tokens: 2400,
+  practice_tokens: 3600,
+  practice_count: 12,
+  cram_tokens: 4200
 };
 
 export const presets = [

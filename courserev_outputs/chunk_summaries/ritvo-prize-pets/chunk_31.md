@@ -1,0 +1,65 @@
+# Chunk 31 (units 24601-25500)
+
+- **Key concepts / sections**
+  - **Lower status and prices of prize cats vs. dogs**
+    - Late Victorian prize cats fetched only about **£1–£2** (already a “long price”), far below prize dogs.
+    - Seen partly as “garbage” animals; cats were less profitable and prestigious.
+  - **Biological resistance to “breeding” cats**
+    - Cats were harder to subdivide into stable breeds and to manipulate genetically than dogs.
+    - Fanciers responded by **imposing artificial breed categories**, not always grounded in clear biological differences.
+  - **First major cat show (Crystal Palace, 1871)**
+    - Organized by **Harrison Weir**, animal writer and illustrator; later president of the National Cat Club.
+    - Aim: “encourage greater attention to the different breeds, colours, markings, etc.”
+    - Structured classes by **varieties of colour, form, size, and sex**.
+    - Confusion of species boundaries: a **Scottish wildcat** was a prizewinner.
+    - Show was popular; Weir got a **silver tankard** from the Crystal Palace Company.
+    - Rapid diffusion: Birmingham, Glasgow, and later small provincial towns hosted “annual exhibitions of feline favorites.”
+  - **Color as the main organizing principle**
+    - Because true “breeds” were hard to define, shows relied on **color** as the practical index of difference.
+    - Organizers tried to give color **moral/behavioral significance** to make categories seem less superficial.
+  - **Gordon Stables’ classification attempt**
+    - Proposed 13 color-based categories:
+      - tortoiseshell; tortoiseshell-and-white; brown tabby; blue and silver tabby; red; red tabby; red-and-white tabby; spotted tabby; black-and-white; black; white; unusual color; any other variety.
+    - He admitted the artificiality:
+      - Said he was just reflecting existing “pussy-show” practice instead of dividing by “species and breeds” (which he never clearly spelled out).
+      - Elsewhere claimed there was **“properly speaking” only one breed** of domestic cat.
+    - Argued that **colour predicts character and behavior**:
+      - Tortoiseshell: good mothers, “game as bull terriers.”
+      - Tortoiseshell-and-white: clever, docile, “tricky.”
+      - Black: “noble and gentlemanly.”
+      - White: timid, social, gentle, often delicate.
+      - Black-and-white: sometimes lazy about house-cat “duties.”
+    - His scheme faded because most late 19th‑c. show cats fell into just the last two broad classes (“unusual color” and “any other variety”).
+  - **Later show systems (Weir and after)**
+    - Weir’s Crystal Palace scheme:
+      - Still **color-based**, but with more colors and divisions by **shorthair/longhair, sex, and age**.
+      - Example: 1889 show—511 entries, 54 classes; 102 cats in a special division **“Cats Belonging to Working Men”**, mirroring dog-fancy concern that animal hierarchy maps onto **human class hierarchy**.
+    - Further refinements:
+      - **Eye color** became important in judging.
+      - New classes added for imported strains: **Siamese, Abyssinian**, etc.
+  - **Specialist cat clubs and the National Cat Club**
+    - Early clubs often organized around **color varieties** (e.g., Silver and Smoke Persian Cat Club; Orange, Cream, Fawn and Tortoiseshell Society).
+    - **National Cat Club** modeled on the **Kennel Club** (pedigree registration, closed shows).
+    - Breeders claimed a greater “science of Cat-breeding,” but **show categories remained overwhelmingly color-based**, despite ongoing efforts to refine them.
+
+- **Definitions / key terms**
+  - **Cat fancy**: Organized culture of breeding, showing, and classifying cats as prestige animals.
+  - **Pedigree registration / closed shows**: System where only animals with registered ancestry can compete; used to formalize “breeds.”
+  - **Breed vs. color class**:
+    - **Breed** (in dog terms): a genetically stable, standardized type with known lineage.
+    - **Color class**: a show category based mainly on coat and sometimes eye color, not necessarily reflecting a genetically distinct breed.
+
+- **Examples**
+  - **Scottish wildcat** entered and won as if it were just another show cat—illustrates blurred species boundary.
+  - **“Cats Belonging to Working Men”** class—explicit link between cat-show hierarchy and human class structure.
+  - Colour–character claims (e.g., tortoiseshells as good mothers; black cats as “gentlemanly”)—attempt to moralize color differences.
+
+- **Pitfalls / common confusions**
+  - **Equating color categories with true breeds**:
+    - Victorian cat shows mostly used **color** as a stand-in for “breed,” unlike dogs, where conformation and function played a larger role.
+  - **Assuming behavioral traits are biologically tied to coat color**:
+    - Stables’ attributions (e.g., whites as timid) are **cultural stereotypes**, not scientific findings.
+  - **Thinking cat breeding was as systematized as dog breeding**:
+    - Despite adopting Kennel Club structures and claiming “science,” cat breeding standards remained **less biologically grounded and more cosmetic**.
+  - **Species vs. breed confusion**:
+    - Including wildcats in domestic cat shows shows that even the **species boundary** was not consistently respected.

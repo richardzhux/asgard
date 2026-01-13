@@ -13,6 +13,9 @@ export async function POST(req: Request) {
     const config = parsed.data;
     const userId = body?.user_id || body?.userId || process.env.DEFAULT_USER_ID || "00000000-0000-0000-0000-000000000000";
     const sb = supabaseServiceRole();
+    if (!sb) {
+      return NextResponse.json({ error: "Supabase is not configured." }, { status: 503 });
+    }
     const { data, error } = await sb
       .from("jobs")
       .insert({

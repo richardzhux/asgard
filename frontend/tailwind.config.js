@@ -10,12 +10,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "hsl(210, 40%, 96%)",
-        foreground: "hsl(215, 30%, 15%)",
-        muted: "hsl(214, 15%, 85%)",
-        accent: "hsl(201, 44%, 36%)",
+        background: "hsl(210, 36%, 97%)",
+        foreground: "hsl(215, 25%, 13%)",
+        muted: "hsl(213, 18%, 90%)",
+        accent: "hsl(196, 45%, 32%)",
         card: "hsl(0, 0%, 100%)",
-        border: "hsl(214, 18%, 86%)"
+        border: "hsl(214, 20%, 88%)"
       },
       fontFamily: {
         sans: ['"Noto Sans JP"', "Inter", "system-ui", "sans-serif"]

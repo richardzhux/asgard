@@ -1,0 +1,57 @@
+# Chunk 08 (units 5741-6640)
+
+- **Key concepts / sections**
+  - Media and public advocacy around treaty fishing rights
+    - Don Matheson helped stage public events (e.g., treaty rights rally at Washington’s Temple of Justice, 1968) and bring national media attention (Charles Kuralt’s CBS show) to Frank’s Landing.
+    - Celebrity involvement: Marlon Brando brought to the struggle to increase visibility.
+  - Hank Adams’ strategic vision
+    - Drove multiple **documentaries**:
+      - *In the Shadow of the Eagle* (Nisqually River)
+      - *Treaties Made, Treaties Broken*
+      - *As Long as the Rivers Run* (Carol Burns; especially influential)
+    - Helped conceive and secure funding for **Uncommon Controversy**, an American Friends Service Committee (AFSC) report on Washington fishing rights.
+      - Described as well‑written, fair‑minded, scholarly.
+      - Went into several printings → influential in shaping public understanding.
+    - Overall approach combined:
+      - Grassroots organizing
+      - Political rallies
+      - Film documentaries
+      - Scholarly/public reports
+  - Emergence of American Indian law as a field
+    - 1966: Hank Adams and Bob Satiacum, with other Native activists, pressed **Ralph Johnson**, a University of Washington law professor, to teach Indian law.
+      - At that time, almost no Indian law courses existed nationwide (only a course in Oklahoma on Indian land titles).
+      - Johnson initially resisted due to no background in the field but was persuaded.
+    - Johnson’s contributions:
+      - Taught an undergraduate course in Indian law (late 1960s).
+      - Began teaching Indian law in the UW law school in 1969.
+      - Continued until retirement in 1999 → longest continuous teaching of American Indian law in U.S. history.
+      - Publicly condemned state actions on fishing rights as “injustice,” “entirely wrong,” “repressive, racist.”
+  - Moral framing and democratic politics
+    - By late 1960s, the Nisqually and Northwest tribes’ cause had gained:
+      - **Dignity** and a clear **moral content** many Americans could recognize.
+    - Important in a democracy because:
+      - Small minorities lack voting power to change policy directly.
+      - Their rights often depend on broader public recognition of a moral claim.
+    - Parallel to civil rights era:
+      - Sometimes morality is enacted through **new legislation** (e.g., civil rights laws).
+      - For Nisqually fishing rights, the morality was already embodied in **existing federal law**: the **1854 treaty**.
+      - Logical path: enforce the treaty in **federal courts**, knowing it would be a long struggle.
+  - Beginning of organized resistance (transition to Chapter 3)
+    - After **six fishermen were jailed for contempt** (1964), a **resistance organization** was formed.
+    - Reference to **SAIA founders** (likely *Survival of American Indians Association*) starting to organize (scene of canoeing on the Nisqually mentioned).
+
+- **Examples**
+  - Symbolic protest: Nisqually fishermen (January 1965) raised an **inverted American military funeral flag** belonging to Herman “Buck” John (tribal member killed in WWII’s Battle of the Bulge) as a distress signal and appeal for aid, with the last Frank’s Landing fish house in the background.
+    - Combines patriotism, sacrifice, and protest → powerful moral symbol.
+
+- **Key terms / definitions**
+  - **Uncommon Controversy**: AFSC‑sponsored report on Washington fishing rights; widely regarded as balanced and scholarly; became a central reference in the debate.
+  - **Indian law (American Indian law)**: The body of law dealing with the status, rights, and governance of Native American tribes, including treaties, land titles, and sovereignty. Essentially undeveloped in law schools before the late 1960s.
+
+- **Pitfalls / common confusions**
+  - Treaties vs. new laws:
+    - The Nisqually struggle did **not** seek new treaty rights; it sought **enforcement** of existing treaty rights (1854 treaty as federal law).
+  - Role of media and scholarship:
+    - Documentaries and reports like *Uncommon Controversy* weren’t just “background” materials; they were **strategic tools** to build the moral and political support necessary for legal success.
+  - Indian law as a long‑standing field:
+    - It is easy to assume Indian law has long been a standard law school subject; in the 1960s it was nearly **nonexistent**, which underscores how novel and activist‑driven its development was.

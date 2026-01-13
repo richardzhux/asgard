@@ -1,0 +1,91 @@
+# Chunk 07 (units 4921-5820)
+
+- **Key Sections / Concepts**
+
+  - **Special WMA Dove / Migratory Bird Rules**
+    - **Swan Lake portion of Boatwright WMA (Ballard Co.)**
+      - Dove: Sept. 1 – Oct. 13, 2025  
+      - Snipe: Sept. 17 – Oct. 13, 2025  
+      - Rails/Moorhens/Gallinules: Sept. 1 – Oct. 13, 2025  
+      - No woodcock hunting.  
+      - Some areas posted by sign are closed to all hunting.
+    - **Miller Welch–Central Kentucky WMA (Madison Co.)**
+      - Dove: Sept. 1 – Oct. 13, 2025  
+      - Snipe: Sept. 17 – Oct. 13, 2025  
+      - No woodcock hunting.
+    - **West Kentucky WMA (McCracken Co.)**
+      - Dove, snipe, woodcock: open under statewide seasons.  
+      - Closed during deer gun seasons.  
+      - WMA closed to September Canada goose season.
+    - **Special Migratory Bird Restrictions (certain WMAs)**
+      - Open Sept. 1 and Sept. 6 – Oct. 26, 2025.  
+      - Closed Sept. 2–5, 2025.  
+      - Private cooperative fields:
+        - Closed to public except on listed dates.  
+        - Before season: may drive by but cannot leave vehicle to scout.
+
+  - **Quota Dove Hunts**
+    - Locations: Big Rivers WMA and Welch Tract of Kentucky River WMA.
+    - Hunt dates: Sept. 1 and Sept. 6 (quota only).
+    - Fields closed Sept. 1–6 except to drawn hunters.
+    - Apply online: Aug. 4 (8 a.m.) – Aug. 15 (4:30 p.m. Eastern) at fw.ky.gov.
+    - Special rules:
+      - Drawn hunter may bring **one guest**.  
+      - Both must **check in** before hunting and **check out** via post‑hunt survey.  
+      - No hunting before **1 p.m. Eastern**.  
+      - Must **carry copy** of selection letter (both drawn and guest).  
+      - Guest cannot hunt if drawn hunter is absent.  
+      - Must be out of field by **6 p.m. Eastern**.  
+      - May not possess more than **50 shells**.
+
+  - **Waterfowl Seasons & Limits (high level)**
+    - **Teal & Wood Duck** (statewide)
+      - Sept. 20–24, 2025.  
+      - Daily: 6 (max 2 wood ducks).  
+      - Possession: 18 (max 6 wood ducks).
+    - **September Canada Goose**
+      - Western Zone: Sept. 1–15, 2025, daily 5, possession 15.  
+      - Eastern Zone: Sept. 16–30, 2025, daily 5, possession 15.
+    - **Duck Season**
+      - Nov. 27–30, 2025 and Dec. 7, 2025 – Jan. 31, 2026.  
+      - Daily: 6 ducks, with species sub‑limits:  
+        - ≤4 mallards (≤2 hens)  
+        - ≤3 wood ducks  
+        - ≤2 redheads  
+        - ≤3 pintails  
+        - ≤2 black ducks  
+        - ≤2 canvasbacks  
+        - Scaup:  
+          - 1 scaup daily Nov. 27–30 & Dec. 7–17  
+          - 2 scaup daily Dec. 18 – Jan. 31  
+      - Possession: **triple** the daily bag.
+    - **Coot**
+      - Daily 15, possession 45.
+    - **Merganser**
+      - Daily 5 (max 2 hooded), possession triple daily.
+    - **Canada/Cackling, White‑fronted, Brant (combined)**
+      - Nov. 27, 2025 – Feb. 15, 2026.  
+      - Daily 5 total: max 3 Canada, 2 white‑fronted, 1 brant; possession = triple.
+    - **Snow Goose (incl. Ross’s)**
+      - Regular season: Daily 20, possession 60.
+    - **Youth‑only Waterfowl**
+      - Nov. 22, 2025; Feb. 14, 2026.  
+      - Same limits as regular, but scaup limit = 2/day.
+    - **Military/Veteran‑only Waterfowl**
+      - Nov. 23, 2025; Feb. 8, 2026.
+    - **Falconry Seasons**
+      - Ducks, coots, mergansers: Nov. 27, 2025 – Feb. 22, 2026; daily 3, possession 9.  
+      - Geese: Nov. 27, 2025 – Feb. 15, 2026; same limits as regular goose season.
+    - **Light Goose Conservation Order (Snow/Ross’s)**
+      - Feb. 16 – Mar. 31, 2026.  
+      - No daily or possession limit.  
+      - Requires **free permit**; must report activity by **April 10, 2026**.  
+      - WMA pit/blind restrictions do **not** apply during this Order.
+
+  - **Shooting Hours (Waterfowl)**
+    - Regular: ½ hour before sunrise to sunset.
+    - Light Goose Conservation Order: ½ hour before sunrise to ½ hour after sunset.
+    - WMAs: ½ hour before sunrise to sunset, unless WMA rules say otherwise.
+
+  - **Definitions**
+    - **Daily
